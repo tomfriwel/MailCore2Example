@@ -14,4 +14,9 @@ Example to use MailCore2
 
 #### POP3
 
+- There are no folders with POP.
+- There's no notion of unread messages on POP3.
+
 [Fetching the inbox count on POP? #82](https://github.com/MailCore/mailcore2/issues/82)
+
+[iOS:how to fetch messages in different folder when use POP ? #1508](https://github.com/MailCore/mailcore2/issues/1508)
