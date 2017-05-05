@@ -16,7 +16,12 @@ Example to use MailCore2
 
 - There are no folders with POP.
 - There's no notion of unread messages on POP3.
+- POP3 only connects to the inbox.
 
 [Fetching the inbox count on POP? #82](https://github.com/MailCore/mailcore2/issues/82)
 
 [iOS:how to fetch messages in different folder when use POP ? #1508](https://github.com/MailCore/mailcore2/issues/1508)
+
+[How to Fetch message with header, email subject, email content and without attachments #1442](https://github.com/MailCore/mailcore2/issues/1442)
+
+[pop3 - point to inbox once connected? #601](https://github.com/MailCore/mailcore2/issues/601)
