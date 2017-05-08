@@ -1,5 +1,5 @@
 # MailCore2Example
-Example to use MailCore2
+Example to use MailCore2 and some helpful links
 
 [MailCore/mailcore2](https://github.com/MailCore/mailcore2)
 
