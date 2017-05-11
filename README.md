@@ -17,6 +17,7 @@ Example to use MailCore2 and some helpful links
 - There are no folders with POP.
 - There's no notion of unread messages on POP3.
 - POP3 only connects to the inbox.
+- The pop session seems cannot fetch new emails received after the session's initial time. We should initial the session again.
 
 [Fetching the inbox count on POP? #82](https://github.com/MailCore/mailcore2/issues/82)
 
