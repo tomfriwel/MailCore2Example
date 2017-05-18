@@ -5,7 +5,11 @@ Example to use MailCore2 and some helpful links
 
 [Issues: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
 
-[Issues: Removing info about attachments from email body](https://github.com/MailCore/mailcore2/issues/813)
+[Issues: Removing info about attachments from email body #813](https://github.com/MailCore/mailcore2/issues/813)
+
+[Issues: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
+
+[Issues: Adding Inline Attachments? #164](https://github.com/MailCore/mailcore2/issues/164)
 
 [Wiki: Embedding images in HTML rendered message](https://github.com/MailCore/mailcore2/wiki/Embedding-images-in-HTML-rendered-message) // This for bodyData full downloaded.
 
