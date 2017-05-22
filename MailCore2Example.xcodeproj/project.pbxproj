@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD6A5DB50CF8056C9B74048 /* Pods_MailCore2Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEA1B12341B9D182CC2BE4C /* Pods_MailCore2Example.framework */; };
 		CFD044061ED2EE1100669248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044051ED2EE1100669248 /* main.m */; };
 		CFD044091ED2EE1100669248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044081ED2EE1100669248 /* AppDelegate.m */; };
 		CFD0440C1ED2EE1100669248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD0440B1ED2EE1100669248 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E7332868DACCA225AF4C327 /* Pods-MailCore2Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA360A6FDB3DE1C51527F99 /* Pods-MailCore2Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DEA1B12341B9D182CC2BE4C /* Pods_MailCore2Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailCore2Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD044011ED2EE1100669248 /* MailCore2Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailCore2Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD044051ED2EE1100669248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFD044071ED2EE1100669248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD6A5DB50CF8056C9B74048 /* Pods_MailCore2Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AA1BE0EA64347F2F4A5F4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E7332868DACCA225AF4C327 /* Pods-MailCore2Example.debug.xcconfig */,
+				2FA360A6FDB3DE1C51527F99 /* Pods-MailCore2Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A479986612ED30F5FADB5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEA1B12341B9D182CC2BE4C /* Pods_MailCore2Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFD043F81ED2EE1100669248 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				CFD0441D1ED2EE1100669248 /* MailCore2ExampleTests */,
 				CFD044281ED2EE1200669248 /* MailCore2ExampleUITests */,
 				CFD044021ED2EE1100669248 /* Products */,
+				47AA1BE0EA64347F2F4A5F4E /* Pods */,
+				6A479986612ED30F5FADB5BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD0442E1ED2EE1200669248 /* Build configuration list for PBXNativeTarget "MailCore2Example" */;
 			buildPhases = (
+				15971844F232C9166E55FEBD /* [CP] Check Pods Manifest.lock */,
 				CFD043FD1ED2EE1100669248 /* Sources */,
 				CFD043FE1ED2EE1100669248 /* Frameworks */,
 				CFD043FF1ED2EE1100669248 /* Resources */,
+				AC9EC016E820CCC77985A728 /* [CP] Embed Pods Frameworks */,
+				DC11DA9D25A71C8804CEEDF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15971844F232C9166E55FEBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9EC016E820CCC77985A728 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC11DA9D25A71C8804CEEDF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFD043FD1ED2EE1100669248 /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		CFD0442F1ED2EE1200669248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7332868DACCA225AF4C327 /* Pods-MailCore2Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
@@ -437,6 +513,7 @@
 		};
 		CFD044301ED2EE1200669248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA360A6FDB3DE1C51527F99 /* Pods-MailCore2Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
