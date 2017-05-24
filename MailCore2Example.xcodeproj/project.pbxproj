@@ -17,6 +17,7 @@
 		CFD0441F1ED2EE1100669248 /* MailCore2ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD0441E1ED2EE1100669248 /* MailCore2ExampleTests.m */; };
 		CFD0442A1ED2EE1200669248 /* MailCore2ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044291ED2EE1200669248 /* MailCore2ExampleUITests.m */; };
 		CFEBA4D31ED56B2500FA4CDE /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBA4D21ED56B2500FA4CDE /* libMailCore-ios.a */; };
+		CFEBA4D61ED56FBB00FA4CDE /* EmailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CFD044291ED2EE1200669248 /* MailCore2ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailCore2ExampleUITests.m; sourceTree = "<group>"; };
 		CFD0442B1ED2EE1200669248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFEBA4D21ED56B2500FA4CDE /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMailCore-ios.a"; path = "Pods/mailcore2-ios/lib/libMailCore-ios.a"; sourceTree = "<group>"; };
+		CFEBA4D41ED56FBB00FA4CDE /* EmailListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailListViewController.h; sourceTree = "<group>"; };
+		CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				CFD044081ED2EE1100669248 /* AppDelegate.m */,
 				CFD0440A1ED2EE1100669248 /* ViewController.h */,
 				CFD0440B1ED2EE1100669248 /* ViewController.m */,
+				CFEBA4D41ED56FBB00FA4CDE /* EmailListViewController.h */,
+				CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */,
 				CFD0440D1ED2EE1100669248 /* Main.storyboard */,
 				CFD044101ED2EE1100669248 /* Assets.xcassets */,
 				CFD044121ED2EE1100669248 /* LaunchScreen.storyboard */,
@@ -358,6 +363,7 @@
 				CFD0440C1ED2EE1100669248 /* ViewController.m in Sources */,
 				CFD044091ED2EE1100669248 /* AppDelegate.m in Sources */,
 				CFD044061ED2EE1100669248 /* main.m in Sources */,
+				CFEBA4D61ED56FBB00FA4CDE /* EmailListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

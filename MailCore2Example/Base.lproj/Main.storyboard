@@ -30,7 +30,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="URL"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mail adress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-gM-6Hz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mailbox" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-gM-6Hz">
                                 <rect key="frame" x="15" y="100" width="345" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="5Xl-Kh-2cA"/>
@@ -60,6 +60,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w4-jU-bA7">
                                 <rect key="frame" x="170" y="235" width="34" height="30"/>
                                 <state key="normal" title="login"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHB-8h-eGa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,14 +83,20 @@
                             <constraint firstItem="8kG-d9-aTn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="zmS-hL-apu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imapHostNameTextField" destination="YRL-6w-HFV" id="ua8-0h-x3N"/>
+                        <outlet property="imapPortTextField" destination="8kG-d9-aTn" id="rm8-po-QxS"/>
+                        <outlet property="mailboxTextField" destination="DEK-gM-6Hz" id="Z2J-3j-NK7"/>
+                        <outlet property="passwordTextField" destination="3cU-mX-FS5" id="jJk-fc-D6G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Email List View Controller-->
         <scene sceneID="QK7-ud-mID">
             <objects>
-                <viewController id="oiX-3Q-pSc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EmailListViewController" id="oiX-3Q-pSc" customClass="EmailListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DMz-rC-wna"/>
                         <viewControllerLayoutGuide type="bottom" id="wyf-Fl-mUE"/>
@@ -95,8 +104,27 @@
                     <view key="view" contentMode="scaleToFill" id="AVD-AB-sf4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-vt-DQ0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="oiX-3Q-pSc" id="xCN-pN-RXI"/>
+                                    <outlet property="delegate" destination="oiX-3Q-pSc" id="Xef-mZ-s0k"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wyf-Fl-mUE" firstAttribute="top" secondItem="Ntr-vt-DQ0" secondAttribute="bottom" id="61i-Rk-Hca"/>
+                            <constraint firstItem="Ntr-vt-DQ0" firstAttribute="leading" secondItem="AVD-AB-sf4" secondAttribute="leading" id="Dzn-V5-eqZ"/>
+                            <constraint firstItem="Ntr-vt-DQ0" firstAttribute="top" secondItem="AVD-AB-sf4" secondAttribute="top" id="wAj-Fr-FAD"/>
+                            <constraint firstAttribute="trailing" secondItem="Ntr-vt-DQ0" secondAttribute="trailing" id="zlX-fF-7hQ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Ntr-vt-DQ0" id="sfP-3Q-Zuo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pGz-27-lrp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
