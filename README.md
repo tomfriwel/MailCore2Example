@@ -31,7 +31,3 @@ Example to use MailCore2 and some helpful links
 [How to Fetch message with header, email subject, email content and without attachments #1442](https://github.com/MailCore/mailcore2/issues/1442)
 
 [pop3 - point to inbox once connected? #601](https://github.com/MailCore/mailcore2/issues/601)
-
-test
-
-ssdf**sd**sssdfsd
