@@ -1,0 +1,5 @@
+#OS junk files
+*.DS_Store
+
+#mailcore2 files
+libMailCore-ios.a
