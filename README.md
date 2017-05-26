@@ -13,6 +13,8 @@ Example to use MailCore2 and some helpful links
 
 [Issue:How to update existing draft on server? #841](https://github.com/MailCore/mailcore2/issues/841)
 
+[Issue:Save as Draft in Gmail! #1201](https://github.com/MailCore/mailcore2/issues/1201)
+
 [Wiki: Embedding images in HTML rendered message](https://github.com/MailCore/mailcore2/wiki/Embedding-images-in-HTML-rendered-message) // This for bodyData full downloaded.
 
 [STARTTLS vs SSL/TLS [closed]](http://stackoverflow.com/questions/5540374/starttls-vs-ssl-tls)
