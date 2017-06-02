@@ -3,13 +3,17 @@ Example to use MailCore2 and some helpful links
 
 [MailCore/mailcore2](https://github.com/MailCore/mailcore2)
 
-[Issues: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
+[Issue: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
 
-[Issues: Removing info about attachments from email body #813](https://github.com/MailCore/mailcore2/issues/813)
+[Issue: Removing info about attachments from email body #813](https://github.com/MailCore/mailcore2/issues/813)
 
-[Issues: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
+[Issue: Set htmlBodyRenderingOperationWithMessage formatting delegate? #1132](https://github.com/MailCore/mailcore2/issues/1132)
 
-[Issues: Adding Inline Attachments? #164](https://github.com/MailCore/mailcore2/issues/164)
+[Issue: Adding Inline Attachments? #164](https://github.com/MailCore/mailcore2/issues/164)
+
+[Issue:How to update existing draft on server? #841](https://github.com/MailCore/mailcore2/issues/841)
+
+[Issue:Save as Draft in Gmail! #1201](https://github.com/MailCore/mailcore2/issues/1201)
 
 [Wiki: Embedding images in HTML rendered message](https://github.com/MailCore/mailcore2/wiki/Embedding-images-in-HTML-rendered-message) // This for bodyData full downloaded.
 
