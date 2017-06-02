@@ -14,28 +14,9 @@
 		CFD0440F1ED2EE1100669248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0440D1ED2EE1100669248 /* Main.storyboard */; };
 		CFD044111ED2EE1100669248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD044101ED2EE1100669248 /* Assets.xcassets */; };
 		CFD044141ED2EE1100669248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD044121ED2EE1100669248 /* LaunchScreen.storyboard */; };
-		CFD0441F1ED2EE1100669248 /* MailCore2ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD0441E1ED2EE1100669248 /* MailCore2ExampleTests.m */; };
-		CFD0442A1ED2EE1200669248 /* MailCore2ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044291ED2EE1200669248 /* MailCore2ExampleUITests.m */; };
 		CFEBA4D31ED56B2500FA4CDE /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBA4D21ED56B2500FA4CDE /* libMailCore-ios.a */; };
 		CFEBA4D61ED56FBB00FA4CDE /* EmailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CFD0441B1ED2EE1100669248 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFD043F91ED2EE1100669248 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFD044001ED2EE1100669248;
-			remoteInfo = MailCore2Example;
-		};
-		CFD044261ED2EE1200669248 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFD043F91ED2EE1100669248 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFD044001ED2EE1100669248;
-			remoteInfo = MailCore2Example;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0013C3205641C3C255F4B993 /* Pods-MailCore2Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,12 +32,6 @@
 		CFD044101ED2EE1100669248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD044131ED2EE1100669248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD044151ED2EE1100669248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFD0441A1ED2EE1100669248 /* MailCore2ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailCore2ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD0441E1ED2EE1100669248 /* MailCore2ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailCore2ExampleTests.m; sourceTree = "<group>"; };
-		CFD044201ED2EE1100669248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFD044251ED2EE1100669248 /* MailCore2ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailCore2ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD044291ED2EE1200669248 /* MailCore2ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailCore2ExampleUITests.m; sourceTree = "<group>"; };
-		CFD0442B1ED2EE1200669248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFEBA4D21ED56B2500FA4CDE /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMailCore-ios.a"; path = "Pods/mailcore2-ios/lib/libMailCore-ios.a"; sourceTree = "<group>"; };
 		CFEBA4D41ED56FBB00FA4CDE /* EmailListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailListViewController.h; sourceTree = "<group>"; };
 		CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailListViewController.m; sourceTree = "<group>"; };
@@ -69,20 +44,6 @@
 			files = (
 				CFEBA4D31ED56B2500FA4CDE /* libMailCore-ios.a in Frameworks */,
 				5AD6A5DB50CF8056C9B74048 /* Pods_MailCore2Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFD044171ED2EE1100669248 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFD044221ED2EE1100669248 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				CFD044031ED2EE1100669248 /* MailCore2Example */,
-				CFD0441D1ED2EE1100669248 /* MailCore2ExampleTests */,
-				CFD044281ED2EE1200669248 /* MailCore2ExampleUITests */,
 				CFD044021ED2EE1100669248 /* Products */,
 				6A479986612ED30F5FADB5BF /* Frameworks */,
 				42E601EE4A71F429A57D6E94 /* Pods */,
@@ -123,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				CFD044011ED2EE1100669248 /* MailCore2Example.app */,
-				CFD0441A1ED2EE1100669248 /* MailCore2ExampleTests.xctest */,
-				CFD044251ED2EE1100669248 /* MailCore2ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,24 +112,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CFD0441D1ED2EE1100669248 /* MailCore2ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				CFD0441E1ED2EE1100669248 /* MailCore2ExampleTests.m */,
-				CFD044201ED2EE1100669248 /* Info.plist */,
-			);
-			path = MailCore2ExampleTests;
-			sourceTree = "<group>";
-		};
-		CFD044281ED2EE1200669248 /* MailCore2ExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CFD044291ED2EE1200669248 /* MailCore2ExampleUITests.m */,
-				CFD0442B1ED2EE1200669248 /* Info.plist */,
-			);
-			path = MailCore2ExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,42 +135,6 @@
 			productReference = CFD044011ED2EE1100669248 /* MailCore2Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFD044191ED2EE1100669248 /* MailCore2ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFD044311ED2EE1200669248 /* Build configuration list for PBXNativeTarget "MailCore2ExampleTests" */;
-			buildPhases = (
-				CFD044161ED2EE1100669248 /* Sources */,
-				CFD044171ED2EE1100669248 /* Frameworks */,
-				CFD044181ED2EE1100669248 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFD0441C1ED2EE1100669248 /* PBXTargetDependency */,
-			);
-			name = MailCore2ExampleTests;
-			productName = MailCore2ExampleTests;
-			productReference = CFD0441A1ED2EE1100669248 /* MailCore2ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CFD044241ED2EE1100669248 /* MailCore2ExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFD044341ED2EE1200669248 /* Build configuration list for PBXNativeTarget "MailCore2ExampleUITests" */;
-			buildPhases = (
-				CFD044211ED2EE1100669248 /* Sources */,
-				CFD044221ED2EE1100669248 /* Frameworks */,
-				CFD044231ED2EE1100669248 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFD044271ED2EE1200669248 /* PBXTargetDependency */,
-			);
-			name = MailCore2ExampleUITests;
-			productName = MailCore2ExampleUITests;
-			productReference = CFD044251ED2EE1100669248 /* MailCore2ExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,18 +148,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = T5EW9858SB;
 						ProvisioningStyle = Automatic;
-					};
-					CFD044191ED2EE1100669248 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = T5EW9858SB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CFD044001ED2EE1100669248;
-					};
-					CFD044241ED2EE1100669248 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = T5EW9858SB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CFD044001ED2EE1100669248;
 					};
 				};
 			};
@@ -274,8 +165,6 @@
 			projectRoot = "";
 			targets = (
 				CFD044001ED2EE1100669248 /* MailCore2Example */,
-				CFD044191ED2EE1100669248 /* MailCore2ExampleTests */,
-				CFD044241ED2EE1100669248 /* MailCore2ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,20 +177,6 @@
 				CFD044141ED2EE1100669248 /* LaunchScreen.storyboard in Resources */,
 				CFD044111ED2EE1100669248 /* Assets.xcassets in Resources */,
 				CFD0440F1ED2EE1100669248 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFD044181ED2EE1100669248 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFD044231ED2EE1100669248 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,36 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFD044161ED2EE1100669248 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFD0441F1ED2EE1100669248 /* MailCore2ExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFD044211ED2EE1100669248 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFD0442A1ED2EE1200669248 /* MailCore2ExampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CFD0441C1ED2EE1100669248 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFD044001ED2EE1100669248 /* MailCore2Example */;
-			targetProxy = CFD0441B1ED2EE1100669248 /* PBXContainerItemProxy */;
-		};
-		CFD044271ED2EE1200669248 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFD044001ED2EE1100669248 /* MailCore2Example */;
-			targetProxy = CFD044261ED2EE1200669248 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CFD0440D1ED2EE1100669248 /* Main.storyboard */ = {
@@ -542,56 +388,6 @@
 			};
 			name = Release;
 		};
-		CFD044321ED2EE1200669248 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = MailCore2ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.MailCore2ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailCore2Example.app/MailCore2Example";
-			};
-			name = Debug;
-		};
-		CFD044331ED2EE1200669248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = MailCore2ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.MailCore2ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailCore2Example.app/MailCore2Example";
-			};
-			name = Release;
-		};
-		CFD044351ED2EE1200669248 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = MailCore2ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.MailCore2ExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MailCore2Example;
-			};
-			name = Debug;
-		};
-		CFD044361ED2EE1200669248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = T5EW9858SB;
-				INFOPLIST_FILE = MailCore2ExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.MailCore2ExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MailCore2Example;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,24 +405,6 @@
 			buildConfigurations = (
 				CFD0442F1ED2EE1200669248 /* Debug */,
 				CFD044301ED2EE1200669248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFD044311ED2EE1200669248 /* Build configuration list for PBXNativeTarget "MailCore2ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFD044321ED2EE1200669248 /* Debug */,
-				CFD044331ED2EE1200669248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFD044341ED2EE1200669248 /* Build configuration list for PBXNativeTarget "MailCore2ExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFD044351ED2EE1200669248 /* Debug */,
-				CFD044361ED2EE1200669248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
