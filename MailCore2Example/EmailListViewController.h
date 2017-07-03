@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MailCore/MailCore.h>
 
 @interface EmailListViewController : UIViewController
+
+@property (strong, nonatomic) MCOIMAPSession *imapSession;
 
 @end

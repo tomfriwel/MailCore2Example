@@ -113,22 +113,36 @@
                                     <outlet property="delegate" destination="oiX-3Q-pSc" id="Xef-mZ-s0k"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BaO-Sn-Z8u">
+                                <rect key="frame" x="177.5" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wyf-Fl-mUE" firstAttribute="top" secondItem="Ntr-vt-DQ0" secondAttribute="bottom" id="61i-Rk-Hca"/>
+                            <constraint firstItem="BaO-Sn-Z8u" firstAttribute="centerY" secondItem="AVD-AB-sf4" secondAttribute="centerY" id="7RR-Uk-Pzg"/>
                             <constraint firstItem="Ntr-vt-DQ0" firstAttribute="leading" secondItem="AVD-AB-sf4" secondAttribute="leading" id="Dzn-V5-eqZ"/>
+                            <constraint firstItem="BaO-Sn-Z8u" firstAttribute="centerX" secondItem="AVD-AB-sf4" secondAttribute="centerX" id="Gl6-FO-LmY"/>
                             <constraint firstItem="Ntr-vt-DQ0" firstAttribute="top" secondItem="AVD-AB-sf4" secondAttribute="top" id="wAj-Fr-FAD"/>
                             <constraint firstAttribute="trailing" secondItem="Ntr-vt-DQ0" secondAttribute="trailing" id="zlX-fF-7hQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="nF5-4d-ahd">
+                        <barButtonItem key="leftBarButtonItem" title="Dismiss" id="jQC-cR-MFE">
+                            <connections>
+                                <action selector="dismissAction:" destination="oiX-3Q-pSc" id="bSl-8H-Gbg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="indicator" destination="BaO-Sn-Z8u" id="sgT-ii-hYf"/>
                         <outlet property="tableView" destination="Ntr-vt-DQ0" id="sfP-3Q-Zuo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pGz-27-lrp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="123"/>
+            <point key="canvasLocation" x="1871.2" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>
