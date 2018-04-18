@@ -10,4 +10,6 @@
 
 @interface EmailTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *title;
+
 @end

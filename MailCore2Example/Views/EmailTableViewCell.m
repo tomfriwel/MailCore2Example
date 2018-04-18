@@ -8,6 +8,10 @@
 
 #import "EmailTableViewCell.h"
 
+@interface EmailTableViewCell()
+
+@end
+
 @implementation EmailTableViewCell
 
 - (void)awakeFromNib {
@@ -19,6 +23,10 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
++(CGFloat)cellHeight {
+    return 123;
 }
 
 @end

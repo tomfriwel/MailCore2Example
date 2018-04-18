@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5AD6A5DB50CF8056C9B74048 /* Pods_MailCore2Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEA1B12341B9D182CC2BE4C /* Pods_MailCore2Example.framework */; };
+		CF0DDC581FBAC749000810C4 /* AccountSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DDC571FBAC748000810C4 /* AccountSettingViewController.m */; };
+		CF0DDC5B1FBAC9CE000810C4 /* EmailContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DDC5A1FBAC9CE000810C4 /* EmailContentViewController.m */; };
+		CF0DDC601FBACAA4000810C4 /* EmailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DDC5E1FBACAA4000810C4 /* EmailTableViewCell.m */; };
+		CF0DDC611FBACAA4000810C4 /* EmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DDC5F1FBACAA4000810C4 /* EmailTableViewCell.xib */; };
+		CF0DDC641FBD77D8000810C4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DDC631FBD77D8000810C4 /* TestViewController.m */; };
 		CFD044061ED2EE1100669248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044051ED2EE1100669248 /* main.m */; };
 		CFD044091ED2EE1100669248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD044081ED2EE1100669248 /* AppDelegate.m */; };
-		CFD0440C1ED2EE1100669248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD0440B1ED2EE1100669248 /* ViewController.m */; };
 		CFD0440F1ED2EE1100669248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0440D1ED2EE1100669248 /* Main.storyboard */; };
 		CFD044111ED2EE1100669248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD044101ED2EE1100669248 /* Assets.xcassets */; };
 		CFD044141ED2EE1100669248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD044121ED2EE1100669248 /* LaunchScreen.storyboard */; };
@@ -22,12 +26,19 @@
 		0013C3205641C3C255F4B993 /* Pods-MailCore2Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2EB5DAF423318B455B10B241 /* Pods-MailCore2Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailCore2Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailCore2Example/Pods-MailCore2Example.release.xcconfig"; sourceTree = "<group>"; };
 		8DEA1B12341B9D182CC2BE4C /* Pods_MailCore2Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailCore2Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0DDC561FBAC748000810C4 /* AccountSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountSettingViewController.h; sourceTree = "<group>"; };
+		CF0DDC571FBAC748000810C4 /* AccountSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountSettingViewController.m; sourceTree = "<group>"; };
+		CF0DDC591FBAC9CE000810C4 /* EmailContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailContentViewController.h; sourceTree = "<group>"; };
+		CF0DDC5A1FBAC9CE000810C4 /* EmailContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailContentViewController.m; sourceTree = "<group>"; };
+		CF0DDC5D1FBACAA4000810C4 /* EmailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailTableViewCell.h; sourceTree = "<group>"; };
+		CF0DDC5E1FBACAA4000810C4 /* EmailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailTableViewCell.m; sourceTree = "<group>"; };
+		CF0DDC5F1FBACAA4000810C4 /* EmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailTableViewCell.xib; sourceTree = "<group>"; };
+		CF0DDC621FBD77D8000810C4 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CF0DDC631FBD77D8000810C4 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CFD044011ED2EE1100669248 /* MailCore2Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailCore2Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD044051ED2EE1100669248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFD044071ED2EE1100669248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFD044081ED2EE1100669248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CFD0440A1ED2EE1100669248 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CFD0440B1ED2EE1100669248 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CFD0440E1ED2EE1100669248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD044101ED2EE1100669248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD044131ED2EE1100669248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +79,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF0DDC5C1FBACA7F000810C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF0DDC5D1FBACAA4000810C4 /* EmailTableViewCell.h */,
+				CF0DDC5E1FBACAA4000810C4 /* EmailTableViewCell.m */,
+				CF0DDC5F1FBACAA4000810C4 /* EmailTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CFD043F81ED2EE1100669248 = {
 			isa = PBXGroup;
 			children = (
@@ -89,12 +110,17 @@
 		CFD044031ED2EE1100669248 /* MailCore2Example */ = {
 			isa = PBXGroup;
 			children = (
+				CF0DDC5C1FBACA7F000810C4 /* Views */,
 				CFD044071ED2EE1100669248 /* AppDelegate.h */,
 				CFD044081ED2EE1100669248 /* AppDelegate.m */,
-				CFD0440A1ED2EE1100669248 /* ViewController.h */,
-				CFD0440B1ED2EE1100669248 /* ViewController.m */,
+				CF0DDC561FBAC748000810C4 /* AccountSettingViewController.h */,
+				CF0DDC571FBAC748000810C4 /* AccountSettingViewController.m */,
 				CFEBA4D41ED56FBB00FA4CDE /* EmailListViewController.h */,
 				CFEBA4D51ED56FBB00FA4CDE /* EmailListViewController.m */,
+				CF0DDC591FBAC9CE000810C4 /* EmailContentViewController.h */,
+				CF0DDC5A1FBAC9CE000810C4 /* EmailContentViewController.m */,
+				CF0DDC621FBD77D8000810C4 /* TestViewController.h */,
+				CF0DDC631FBD77D8000810C4 /* TestViewController.m */,
 				CFD0440D1ED2EE1100669248 /* Main.storyboard */,
 				CFD044101ED2EE1100669248 /* Assets.xcassets */,
 				CFD044121ED2EE1100669248 /* LaunchScreen.storyboard */,
@@ -176,6 +202,7 @@
 			files = (
 				CFD044141ED2EE1100669248 /* LaunchScreen.storyboard in Resources */,
 				CFD044111ED2EE1100669248 /* Assets.xcassets in Resources */,
+				CF0DDC611FBACAA4000810C4 /* EmailTableViewCell.xib in Resources */,
 				CFD0440F1ED2EE1100669248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD0440C1ED2EE1100669248 /* ViewController.m in Sources */,
+				CF0DDC5B1FBAC9CE000810C4 /* EmailContentViewController.m in Sources */,
+				CF0DDC581FBAC749000810C4 /* AccountSettingViewController.m in Sources */,
+				CF0DDC641FBD77D8000810C4 /* TestViewController.m in Sources */,
+				CF0DDC601FBACAA4000810C4 /* EmailTableViewCell.m in Sources */,
 				CFD044091ED2EE1100669248 /* AppDelegate.m in Sources */,
 				CFD044061ED2EE1100669248 /* main.m in Sources */,
 				CFEBA4D61ED56FBB00FA4CDE /* EmailListViewController.m in Sources */,

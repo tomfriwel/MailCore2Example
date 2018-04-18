@@ -21,9 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // fetch inbox messages
     __weak typeof(self) weakSelf = self;
     [self fetchMessages:^(NSArray *data) {
-        NSLog(@"%@", data);
+        NSLog(@"fetchMessages count:%ld", data.count);
         weakSelf.messages = [data mutableCopy];
         [weakSelf.tableView reloadData];
         [weakSelf.indicator stopAnimating];
