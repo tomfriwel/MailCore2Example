@@ -10,6 +10,12 @@
 #import <MailCore/MailCore.h>
 #import "EmailListViewController.h"
 
+#define imapHostNameKey @"imapHostName"
+#define imapPortKey @"imapPort"
+#define mailboxKey @"mailbox"
+#define passwordKey @"password"
+
+
 @interface AccountSettingViewController ()
 
 @property (strong, nonatomic) MCOIMAPSession *imapSession;
@@ -24,19 +30,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self loadAccountData];
+}
+
+-(void)loadAccountData {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSString *imapHostName = [userDefaults valueForKey:@"imapHostName"];
-    NSString *imapPort = [userDefaults valueForKey:@"imapPort"];
-    NSString *mailbox = [userDefaults valueForKey:@"mailbox"];
-    NSString *password = [userDefaults valueForKey:@"password"];
     
-    if (imapHostName && imapPort && mailbox && password) {
-        self.imapHostNameTextField.text = imapHostName;
-        self.imapPortTextField.text = imapPort;
-        self.mailboxTextField.text = mailbox;
-        self.passwordTextField.text = password;
-    }
+    [self.imapHostNameTextField setText: [userDefaults stringForKey:imapHostNameKey]];
+    [self.imapPortTextField setText: [userDefaults stringForKey:imapPortKey]];
+    [self.mailboxTextField setText: [userDefaults stringForKey:mailboxKey]];
+    [self.passwordTextField setText: [userDefaults stringForKey:passwordKey]];
 }
 
 - (IBAction)loginAction:(id)sender {
@@ -58,10 +61,10 @@
     
     // save
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setValue:imapHostName forKey:@"imapHostName"];
-    [userDefaults setValue:imapPort forKey:@"imapPort"];
-    [userDefaults setValue:mailbox forKey:@"mailbox"];
-    [userDefaults setValue:password forKey:@"password"];
+    [userDefaults setValue:imapHostName forKey:imapHostNameKey];
+    [userDefaults setValue:imapPort forKey:imapPortKey];
+    [userDefaults setValue:mailbox forKey:mailboxKey];
+    [userDefaults setValue:password forKey:passwordKey];
     
     [[self.imapSession checkAccountOperation] start:^(NSError * _Nullable error) {
         if (!error) {
